@@ -1,0 +1,19 @@
+.sidebarRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+
+  .sidebarRowIcon {
+    margin-bottom: 8px;
+    font-size: lorge !important;
+  }
+
+  .sidebarRowTitle {
+    flex: 1;
+    font-size: 11px;
+    font-weight: 500;
+  }
+}

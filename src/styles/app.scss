@@ -1,0 +1,15 @@
+.app__page {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+@import "./header";
+@import "./sidebar";
+@import "./sidebarRow";
+@import "./recommendedVideos";
+@import "./navbarRow";
+@import "./navbar";
+@import "./videoCard";
+@import "./searchPage";
+@import "./videoRow";

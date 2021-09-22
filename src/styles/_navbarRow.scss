@@ -1,0 +1,23 @@
+.navbarRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+
+  &:hover {
+    background-color: rgba(228, 226, 226, 0.562);
+    cursor: pointer;
+  }
+  .navbarRowIcon {
+    font-size: lorge !important;
+    margin-right: 15px;
+    margin-left: 25px;
+  }
+
+  .navbarRowTitle {
+    flex: 1;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

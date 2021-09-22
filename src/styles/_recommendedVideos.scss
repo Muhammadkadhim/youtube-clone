@@ -1,0 +1,23 @@
+.recommendedVideos {
+  flex: 1;
+  width: 100%;
+  height: fit-content;
+  padding: 40px 20px;
+  background: #f9f9f9;
+
+  @media (min-width: 790px) {
+    transition: margin 650ms;
+    &.nav-open {
+      margin-left: 250px;
+    }
+  }
+
+  @media (min-width: 790px) {
+    margin-left: 75px;
+  }
+  .recommendedVideos__videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
